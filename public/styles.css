@@ -1,16 +1,19 @@
 body {
   font-size: 120%;
   font-family: Arial;
+  background-color: #ececec;
 }
 
 button,
 input {
   font-size: 100%;
   font-family: Arial;
+  background-color: #d3d9d9;
 }
 
 table {
   width: 100%;
+  background-color: #537953;
 }
 
 td,
@@ -21,7 +24,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #92b592;
 }
 
 .error {
@@ -30,8 +33,13 @@ tr:nth-child(even) {
 
 .wrapper {
   margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
   max-width: 825px;
   text-align: center;
+  background-color: #ffffff;
+  border-radius: 30px;
 }
 
 .total {
